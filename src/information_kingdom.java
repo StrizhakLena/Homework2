@@ -6,7 +6,7 @@ public class Land {
     protected String Name;
     protected String Posistiom;
     protected int giveLand;
-    protected Kingdom[] maidArray;
+    protected Maid[] maidArray;
     protected int number;
 
     public Land () {
@@ -17,7 +17,6 @@ public class Land {
     public void setName(String Name ) {
         this.Name = Name;
     }
-
 
     public void setAddress(String Posistiom) {
         this.Posistiom = Posistiom;
